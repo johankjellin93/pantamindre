@@ -1,0 +1,28 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // User profile images
+    match /users/{userId}/{imageId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Post images
+    match /posts/{postId}/{imageId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    // Location images
+    match /locations/{locationId}/{imageId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    // Chat messages images
+    match /messages/{messageId}/{imageId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}

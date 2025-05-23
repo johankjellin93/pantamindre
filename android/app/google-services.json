@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "605871819986",
+    "project_id": "panta-mindre",
+    "storage_bucket": "panta-mindre.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605871819986:android:c6dfadcccf92f6c5a2710b",
+        "android_client_info": {
+          "package_name": "se.panta.mindre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605871819986-ahl0vaubn4uaicoot8ikmb1v9ums51ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcgFFSN3x0ZfulmJ0f0LrUxNmDv0Q3x-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605871819986-ahl0vaubn4uaicoot8ikmb1v9ums51ar.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "605871819986-u5c23nebfala2ssbd9otbchfbfepqgvv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.panta.mindre"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
